@@ -1,0 +1,19 @@
+{
+  "name": "blog_analytics",
+  "version": "1.0.0",
+  "description": "You are developing a blog analytics and search tool using Express.js and Lodash. Your goal is to create a middle ware that analyzes the data retrieved from a third-party blog API (provided via the given curl request) and provides insightful statistics to clients.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "nodemon": "^3.0.1"
+  }
+}
